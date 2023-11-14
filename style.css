@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 76px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    font-size: 21px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+
+    color: rgb(183, 164, 164);
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 44px 0px;
+}
+
+
+.left {
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.first-section>div {
+    width: 30%;
+}
+
+.left-section {
+
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.left-section .buttons {
+    padding: 32px 0;
+}
+
+.left-section .btn {
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: blueviolet;
+    margin-top: 14px;
+}
+
+.left-section .btn:hover {
+    background-color: rgb(208, 200, 200);
+    transition: 0.2s ease-out;
+    color: black;
+}
+
+.right-section img {
+    width: 80%;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+#element {
+    color: blueviolet;
+}
+
+.secondSection {
+    margin: auto;
+    max-width: 80vw;
+    height: 80vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.secondSection .box {
+    background: white;
+    margin: 56px 0;
+    width: 77vw;
+    height: 2px;
+    display: flex;
+}
+
+
+
+.secondSection .vertical {
+    background: white;
+    height: 93px;
+    width: 1px;
+    margin: 0 130px;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.top-image {
+    width: 35px;
+    position: relative;
+    top: -43px;
+    left: -17px;
+
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    left: -38px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 12px;
+    left: -38px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: #6868686b;
+
+
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer ul {
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+.footer-rights {
+    text-align: center;
+    margin-top: 46px;
+    color: gray;
+    padding: 13px 0;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
